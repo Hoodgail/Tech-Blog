@@ -1,8 +1,11 @@
 # Tech Blog
 
+
 ## Project Description
 
 The Model-View-Controller (MVC) paradigm is used in this project to create a blog-style website where developers can register, modify their personal information, publish posts, edit their writings, and leave comments on other users' postings.
+
+### app deployed at https://rocky-thicket-44906.herokuapp.com/
 
 ## Tools Used to Create This Project
 
@@ -37,4 +40,4 @@ to setup the database. Run rails s to start the server, then navigate to localho
 
 Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/
+Bug reports and pull requests are welcome on GitHub at [https://github.com/](https://github.com/Hoodgail/Tech-Blog)
