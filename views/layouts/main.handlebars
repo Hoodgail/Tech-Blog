@@ -1,0 +1,47 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MVC Tech Blog</title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+    </head>
+
+    <body class="wrapper">
+
+        <header class="header">
+            <nav class="nav">
+                <h1>
+                    <a href="/">Tech Blog</a>
+                </h1>
+
+                <ul class="nav__links">
+                    <li class="nav__item">
+                        <a class="nav__link" href="/">home</a>
+                    </li>
+                    {{#if loggedIn}}
+                        <li class="nav__item">
+                            <a class="nav__link" href="/dashboard">dashboard</a>
+                        </li>
+                    {{else}}
+                        <li class="nav__item">
+                            <a class="nav__link" href="/login">login</a>
+                        </li>
+                    {{/if}}
+                </ul>
+            </nav>
+        </header>
+        <main>
+            {{{body}}}
+        </main>
+        <footer>
+            &copy; Copyright by Me
+        </footer>
+
+        {{#if loggedIn}}
+            <script src="/javascript/logout.js"></script>
+        {{/if}}
+
+    </body>
+
+</html>
