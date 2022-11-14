@@ -7,6 +7,9 @@ The Model-View-Controller (MVC) paradigm is used in this project to create a blo
 
 ### app deployed at https://rocky-thicket-44906.herokuapp.com/
 
+![tECH](https://user-images.githubusercontent.com/45743294/201764434-e896c3a1-296c-4456-a204-3b531aeb7c19.jpg)
+
+
 ## Tools Used to Create This Project
 
 -   JavaScript
@@ -17,6 +20,7 @@ The Model-View-Controller (MVC) paradigm is used in this project to create a blo
 -   handlebars
 -   bcrypt
 -   dotenv
+
 
 ## Functionality
 
